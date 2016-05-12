@@ -32,15 +32,18 @@ public class IjaszTest {
 	
 	@Test
 	public void iranyTeszt() {
-		Ijasz ijasz = new Ijasz("Béla", 20);
 		Hadsereg hadsereg1 = new Hadsereg("Lannister");
-		Hadsereg hadsereg2 = new Hadsereg("Stark");
+		Hadsereg hadsereg2 = new Hadsereg("Stark");		
 		Hadszinter hadter = new Hadszinter(10, 10, hadsereg1, hadsereg2);
 		
+		Ijasz ijasz = new Ijasz("Béla", 0);
+		ijasz.setHadsereg(hadsereg1);
+		ijasz.setHadszinter(hadter);
 		ijasz.fel();
-		ijasz.lep();
+		ijasz.lep();		
 
 		Assert.assertEquals(1, ijasz.getY());
+		Assert.assertEquals(0, ijasz.getX());
 	}
 	
 	

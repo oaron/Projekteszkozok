@@ -36,7 +36,8 @@ public class GyalogosTest {
 		Hadsereg hadsereg1 = new Hadsereg("Lannister");
 		Hadsereg hadsereg2 = new Hadsereg("Stark");
 		Hadszinter hadter = new Hadszinter(10, 10, hadsereg1, hadsereg2);
-		
+		gyalogos.setHadsereg(hadsereg2);
+		gyalogos.setHadszinter(hadter);
 		gyalogos.fel();
 		gyalogos.lep();
 

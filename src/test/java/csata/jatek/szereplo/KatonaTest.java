@@ -36,11 +36,12 @@ public class KatonaTest {
 		Hadsereg hadsereg1 = new Hadsereg("Lannister");
 		Hadsereg hadsereg2 = new Hadsereg("Stark");
 		Hadszinter hadter = new Hadszinter(10, 10, hadsereg1, hadsereg2);
-		
-		katona.fel();
+		katona.setHadsereg(hadsereg2);
+		katona.setHadszinter(hadter);
+		katona.jobbra();
 		katona.lep();
 
-		Assert.assertEquals(1, katona.getY());
+		Assert.assertEquals(1, katona.getX());
 	}
 	
 	
