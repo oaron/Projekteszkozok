@@ -20,10 +20,6 @@ public abstract class AbstractJatekos implements Jatekos {
 		this.nev = nev;
 		this.sebesseg = sebesseg;
 	}
-
-	public void setIrany(int irany) {
-		this.irany = irany;
-	}
 	
 	public int getIrany() {
 		return irany;

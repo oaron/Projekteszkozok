@@ -108,8 +108,8 @@ System.out.println("x: " + x + ", y: " + y);
 	public Jatekos harcol(Jatekos jatekos1, Jatekos jatekos2) {
 		Jatekos vesztes = null;
 		for (HarcInterface harc : harcTipusok) {
-			Class jatekosTipus1 = harc.getJatekosTipus1();
-			Class jatekosTipus2 = harc.getJatekosTipus2();
+			Class<?> jatekosTipus1 = harc.getJatekosTipus1();
+			Class<?> jatekosTipus2 = harc.getJatekosTipus2();
 			if (jatekosTipus1.isInstance(jatekos1)
 					&& jatekosTipus2.isInstance(jatekos2)) {
 				vesztes = harc.csataz(jatekos1, jatekos2);
