@@ -1,6 +1,7 @@
 # Projekteszközök
 Elte IK Projekteszközök 2016
 
+
 ## Középkori csata 
  Feladat: Egy középkori csata szimulálása. Szereplői lándzsás, íjász, lovas (nehéz és könnyű). A harcosok egy-egy hadseregbe tartoznak, a cél hogy valamelyik hadsereg legyőzze a másikat. 
 A program beépített adatokkal dolgozik. A különböző feladatok könnyen bővíthetőek, így pl. egyszerűen hozzáadható a későbbiekben új résztvevő (pl. gyógyító, mágus, stb). A csatának akkor van vége, ha az egyik hadsereg megsemmisül.
