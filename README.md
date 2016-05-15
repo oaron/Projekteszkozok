@@ -26,8 +26,9 @@ A harcos csomag tartalmazza a két egység harcának megvalósítását. A szere
 Agyalogosból (aki az alapértelmezett mozgást végzi) származik le a katona, a lándzsás, és az íjász. A lovas az alapértelmezett mozgást végzi, de a sebességét a lova határozza meg. A hadsereg 
 alaptáborát egy Tabor nevű szereplővel implementáltam, melynek a sebessége nulla és nem is végez semmilyen tevékenységet. Ha valaki megtámadja, megsemmisül. 
  
- ## Futtatás, tudnivalók
+ 
+## Futtatás, tudnivalók
  
  A projektet elég csak beimportálni az Eclipse-be, futtatás esetén a konzolban megjelenik a csata eredménye szövegesen, lépésekre lebontva.
  
- Parancssori fordításra is van lehetőség, a fordítást a make fájl futtatásával lehet elindítani.
+ Parancssori fordításra is van lehetőség, a fordítást a make fájl futtatásával lehet elindítani. A  legenerált csata.jar fájl a bin almappában található.
