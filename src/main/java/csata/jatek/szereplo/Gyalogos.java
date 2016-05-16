@@ -1,5 +1,9 @@
 package csata.jatek.szereplo;
-
+/**
+ * 
+ * Gyalogost reprezentalo absztrakt osztaly.
+ *
+ */
 public class Gyalogos extends AbstractJatekos {
 
 	public Gyalogos(String nev) {

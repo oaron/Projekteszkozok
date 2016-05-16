@@ -1,5 +1,9 @@
 package csata.jatek;
-
+/**
+ * 
+ * Jatekosokat reprezentalo interface.
+ *
+ */
 public interface Jatekos {
 
 	public void setHadszinter(Hadszinter hadszinter);

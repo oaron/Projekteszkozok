@@ -1,6 +1,10 @@
 package csata.jatek.szereplo;
 
-
+/**
+ * 
+ * Tabort reprezentalo osztaly.
+ *
+ */
 public class Tabor extends AbstractJatekos {
 
 	public Tabor(String nev) {

@@ -1,5 +1,9 @@
 package csata.jatek.szereplo;
-
+/**
+ * 
+ * Lovas reprezentalo osztaly.
+ *
+ */
 public class Lovas extends AbstractJatekos {
 	
 	private Csatalo csatalo;

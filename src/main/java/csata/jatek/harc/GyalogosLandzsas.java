@@ -4,7 +4,11 @@ import csata.jatek.HarcInterface;
 import csata.jatek.Jatekos;
 import csata.jatek.szereplo.Gyalogos;
 import csata.jatek.szereplo.Landzsas;
-
+/**
+ * 
+ * Gyalogos játékos lándzsás játékossal valo harcat reprezentalo osztaly.
+ *
+ */
 public class GyalogosLandzsas implements HarcInterface {
 
 	@Override

@@ -3,7 +3,11 @@ package csata.jatek.szereplo;
 import csata.jatek.Hadsereg;
 import csata.jatek.Hadszinter;
 import csata.jatek.Jatekos;
-
+/**
+ * 
+ * Absztrakt jatekos.
+ *
+ */
 public abstract class AbstractJatekos implements Jatekos {
 	private Hadszinter hadszinter;
 	private Hadsereg hadsereg;
@@ -73,7 +77,11 @@ public abstract class AbstractJatekos implements Jatekos {
 	public void setHadsereg(Hadsereg hadsereg) {
 		this.hadsereg = hadsereg;
 	}
-	
+	/**
+	 * Adott iranyba lepes
+	 * @param relativIrany amelyik iranyba szeretne lepni
+	 * @return tudott-e az adott iranyba lepni
+	 */
 	protected boolean lepIranyba(int relativIrany) {
 		int effektivIrany = (irany + relativIrany) % 3; // modulo, 2 biten taroljuk az iranyt és korbefordul
 		
@@ -99,7 +107,9 @@ public abstract class AbstractJatekos implements Jatekos {
 		}
 		return false;
 	}
-	
+	/**
+	 * Amelyik iranyba tudjuk, mozgatjuk a jatekost.
+	 */
 	protected void mozog() {
 		// megprobalunk elore lepni sebességnyit
 		if (lepIranyba(0)) {

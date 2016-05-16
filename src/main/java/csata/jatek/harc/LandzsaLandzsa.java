@@ -3,7 +3,11 @@ package csata.jatek.harc;
 import csata.jatek.HarcInterface;
 import csata.jatek.Jatekos;
 import csata.jatek.szereplo.Landzsas;
-
+/**
+ * 
+ * Lándzsás játékos lándzsás játékossal valo harcat reprezentalo osztaly.
+ *
+ */
 public class LandzsaLandzsa implements HarcInterface {
 	@Override
 	public Jatekos csataz(Jatekos jatekos1, Jatekos jatekos2) {

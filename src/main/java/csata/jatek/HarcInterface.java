@@ -1,10 +1,19 @@
 package csata.jatek;
-
+/**
+ * 
+ * Harcokat reprezenatlo interface
+ *
+ */
 public interface HarcInterface {
 	public Class<?> getJatekosTipus1();
 
 	public Class<?> getJatekosTipus2();
 
-	// a vesztest adja vissza
+	/**
+	 * Elsonti ki nyerte a csatat
+	 * @param jatekos1
+	 * @param jatekos2
+	 * @return vesztes jatekos
+	 */
 	public Jatekos csataz(Jatekos jatekos1, Jatekos jatekos2);
 }

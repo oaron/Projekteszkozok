@@ -3,7 +3,12 @@ package csata.jatek.harc;
 import csata.jatek.HarcInterface;
 import csata.jatek.Jatekos;
 import csata.jatek.szereplo.Tabor;
-
+/**
+ * 
+ * Tabor bármilyen játékossal valo harcat reprezentalo osztaly.
+ * A tabor nem tud vedekezni.
+ *
+ */
 public class TaborBarmi implements HarcInterface {
 
 	@Override

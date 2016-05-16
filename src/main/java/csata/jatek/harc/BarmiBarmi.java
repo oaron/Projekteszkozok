@@ -2,7 +2,11 @@ package csata.jatek.harc;
 
 import csata.jatek.HarcInterface;
 import csata.jatek.Jatekos;
-
+/**
+ * 
+ * Bármilyen játékos bármilyen játékossal valo harcat reprezentalo osztaly.
+ *
+ */
 public class BarmiBarmi implements HarcInterface {
 
 	@Override

@@ -1,5 +1,9 @@
 package csata.jatek.szereplo;
-
+/**
+ * 
+ * Landzsast reprezentalo osztaly.
+ *
+ */
 public class Landzsas extends Gyalogos {
 	
 	public Landzsas(String nev) {

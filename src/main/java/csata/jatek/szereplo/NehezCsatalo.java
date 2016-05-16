@@ -1,5 +1,9 @@
 package csata.jatek.szereplo;
-
+/**
+ * 
+ * Nehezcsatalot reprezentalo osztaly.
+ *
+ */
 public class NehezCsatalo extends Csatalo {
 
 	@Override

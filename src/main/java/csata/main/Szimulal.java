@@ -15,7 +15,11 @@ import csata.jatek.szereplo.Landzsas;
 import csata.jatek.szereplo.Lovas;
 import csata.jatek.szereplo.NehezCsatalo;
 import csata.jatek.szereplo.Tabor;
-
+/**
+ * 
+ * Szimulacio.
+ *
+ */
 public class Szimulal {
 
 	public static void main(String[] args) {

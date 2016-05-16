@@ -1,5 +1,9 @@
 package csata.jatek.szereplo;
-
+/**
+ * 
+ * Ijaszt reprezentalo osztaly.
+ *
+ */
 public class Ijasz extends Gyalogos {
 
 	private int nyilakSzama;
