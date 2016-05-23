@@ -83,7 +83,7 @@ public class Hadszinter {
 	 * @param szereplo
 	 *            felhelyezni kivant jatekos
 	 * @param x
-	 *            helyenek x koordinátája
+	 *            helyenek x koordinï¿½tï¿½ja
 	 * @param y
 	 *            helyenek y koordinataja
 	 */
@@ -101,7 +101,7 @@ public class Hadszinter {
 	/**
 	 * Jatekos felhelyezese a hadszinterre, pozicio megadasa nelkul.
 	 * 
-	 * @param szereplo
+	 * @param szereplo felhelyezendo jatekos
 	 */
 	public void berak(Jatekos szereplo) {
 		szereplo.setHadszinter(this);
@@ -136,7 +136,7 @@ public class Hadszinter {
 		mezo[x][y] = null;
 	}
 	/**
-	 * Megadott jatekost kivesszük a hadseregbol.
+	 * Megadott jatekost kivesszï¿½k a hadseregbol.
 	 * @param szereplo jatekos
 	 */
 	public void kivesz(Jatekos szereplo) {
@@ -157,7 +157,7 @@ public class Hadszinter {
 	 */
 	public void athelyez(Jatekos szereplo, int x, int y) {
 		if (urese(x, y)) {
-			System.out.println(szereplo.toString() + " áthelyezése: (" + szereplo.getX() + "," + szereplo.getY()
+			System.out.println(szereplo.toString() + " ï¿½thelyezï¿½se: (" + szereplo.getX() + "," + szereplo.getY()
 					+ ") -> (" + x + "," + y + ")");
 			mezo[szereplo.getX()][szereplo.getY()] = null;
 			mezo[x][y] = szereplo;
@@ -189,18 +189,20 @@ public class Hadszinter {
 		}
 		return vesztes;
 	}
+
 	/**
-	 * Ket jatekos harca.
-	 * @param jatekos1 elso jatekos
-	 * @param jatekos2 masodik jatekos
-	 * @return veszto jatekos
+	 * Jatekos harca egy adott mezon
+	 * @param jatekos harcolo jatekos
+	 * @param x koordinata
+	 * @param y koordinata
+	 * @return gyoztes jatekos
 	 */
 	public Jatekos harcol(Jatekos jatekos, int x, int y) {
 		return harcol(jatekos, mezo[x][y]);
 	}
 	/**
 	 * Harctipus hozzadasa
-	 * @param harcTipus
+	 * @param harcTipus hozzaadni kivant harctipus
 	 */
 	public void addHarctipus(HarcInterface harcTipus) {
 		harcTipusok.add(harcTipus);
